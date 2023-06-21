@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-size: 200%;
+    background-image: url(IMAGEM/the\ witcher\ hell.png);
+    background-repeat: no-repeat;
+
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    height: 17vh;
+   
+}
+
+div {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/*figure{
+    width: 100vw;
+    height: 100vh;
+    justify-content:center;
+    background: transparent
+}*/
+
+.guerreiro {
+    margin-top: 3px;
+    margin-bottom: -300px;
+    margin-left: 601px;
+    width: 500px;
+    height: 1000px;
+    justify-content: center;
+    background: transparent;
+}
+
+.marca {
+    margin-top: -300px;
+    margin-left: 651px;
+    width: 434px;
+    height: 216px;
+    justify-content: center;
+    background: transparent;
+}
+
+.botao {
+    margin-top: 5px;
+    margin-left: 712px;
+    width: 338px;
+    height: 67px;
+    justify-content: left;
+    border-radius: 10px;
+    
+}
+
+footer {
+    top: 1028px;
+    left: 34px;
+    width: 734px;
+    height: 38px;
+    text-align: left;
+    font: normal normal 600 15px/19px Montserrat;
+    letter-spacing: 0.45px;
+    color: #eee7e7;
+    opacity: 1;
+}
+
+.link {
+    margin-top: 49px;
+    margin-left: 106px;
+    width: 115vw;
+    height: 24px;
+    font: normal normal bold 20px/24px Montserrat;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    text-decoration: none;
+   
+}
+
+.links1 {
+    color: white;
+    display: flex;
+    list-style: none;
+
+}
+
+h2 {
+    width: 22vw;
+    letter-spacing: 0.7px;
+}
+
+button{
+color: transparent;
+background-color: transparent;
+width: 200px;
+}
