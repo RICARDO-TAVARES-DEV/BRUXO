@@ -39,54 +39,58 @@ div {
 
 figure {
     display: flex;
-    height: 100%;
+    height: 100vh;
     flex-direction: column;
-    margin-top: 20px;
     align-items: center;
-    padding-bottom: 10px;
+
 
 }
 
 
 .guerreiro {
-    width: 70%;
-    height: 100%;
-    position: relative;
-    top: 340px;
+    width: 50vw;
+    height: 100vh;
     justify-content: center;
     background: transparent;
-
+    margin-top: 330px;
 }
 
 .marca {
-    width: 30vw;
+    width: 20vw;
     justify-content: center;
     position: relative;
-    bottom: 240px;
+    bottom: 320px;
     background: transparent;
 
 }
 
 .botao {
-    width: 40vw;
+    width: 20vw;
     cursor: pointer;
     justify-content: left;
+    margin-bottom: 20px;
     position: relative;
-    bottom: 180px;
+    bottom: 310px;
     border-radius: 10px;
 
 }
 
 footer {
-    top: 1028px;
-    left: 34px;
-    width: 734px;
-    height: 38px;
+    width: 100vw;
+    height: 53vh;
     text-align: left;
     font: normal normal 600 15px/19px Montserrat;
     letter-spacing: 0.45px;
     color: #eee7e7;
     opacity: 1;
+}
+
+
+h3 {
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 8px;
+    color: black;
 }
 
 
@@ -108,6 +112,15 @@ h2 {
 @media(max-width: 500px) {
 
 
+    body {
+        background-size: 100% 100%;
+        background-position: center;
+        background-image: url(IMAGEM/the\ witcher\ hell.png);
+        background-repeat: no-repeat;
+    }
+
+
+
     header {
         display: flex;
         flex-direction: column;
@@ -124,7 +137,7 @@ h2 {
         display: flex;
         justify-content: space-around;
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         padding-top: 60px;
     }
 
@@ -132,16 +145,27 @@ h2 {
         width: 100%;
         height: 100%;
         position: relative;
-        top: 90px;
+        top: 200px;
         justify-content: center;
         background: transparent;
 
     }
 
+    .marca {
+        padding-top: 120px;
+    }
+
+
+    footer {
+        width: 100%;
+        height: 100%;
+
+    }
+
     h3 {
         text-align: left;
-        padding-top: 20px;
-        padding-left: 20px;
+        padding-bottom: 80px;
+        padding-left: 8px;
         color: black;
     }
 
